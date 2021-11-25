@@ -1,0 +1,35 @@
+html
+{
+    scroll-behavior: smooth;
+}
+#Home
+{
+    font-weight: bold;
+    background-color: azure;
+    border:2px solid green;
+    margin:20px;
+}
+#About
+{
+    font-weight: bold;
+    background-color: rgb(233, 136, 8);
+    border:2px solid rgb(94, 0, 128);
+    margin:20px;
+}
+#ak
+{
+    font-weight: bold;
+    background-color: rgb(226, 8, 233);
+    border:2px solid rgb(94, 0, 128);
+    margin:20px;
+}
+.nav
+{
+background-color: brown;
+position: fixed;
+padding:10px;
+top:0px;
+display: block;
+width:100%;
+font-size:50px;
+}

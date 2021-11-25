@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Todo list </h1>
+    <input type="text" name="" id="todoText">
+    <button onclick="todo();">Add</button>
+    <div class="Todo"></div>
+    <script>
+        function todo()
+        {
+            var todoText=document.getElementById("todoText");
+            var h1=document.createElement("h1");
+            h1.innerText=todoText.value;
+            var div=document.getElementsByClassName("Todo")[0];
+            div.appendChild(h1);
+        }
+    </script>
+</body>
+</html>
